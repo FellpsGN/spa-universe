@@ -7,6 +7,15 @@
 :root {
     font-family: "Roboto", sans-serif;
     font-size: 62.5%;
+
+    --title-color: #E1E1E6;
+    --text-color: #E1E1E6;
+}
+
+.fundo-home, .fundo-universe, .fundo-explore {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 #app {
@@ -15,6 +24,7 @@
 
 #menu {
     display: flex;
+    align-items: center;
     gap: 3.2rem;
 
     padding: 7.2rem;
@@ -68,8 +78,37 @@
 }
 
 .fundo-home {
-    height: 100vh;
-    background-image: url("/images/mountains-universe-1.png");
-    background-size: cover;
-    background-position: center;
+    background-image: url("/images/fundo-home.png");
+}
+
+/* Universe  e Explorer */
+
+.universe-container, .explore-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    width: 65rem;
+    margin: 6.3rem auto auto 10rem;
+
+}
+
+.universe-container h1, .explore-container h1 {
+    font-weight: bold;
+    font-size: 4.8rem;
+    color: var(--title-color);
+}
+
+.universe-container p, .explore-container p {
+    text-align: justify;
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+
+.fundo-universe {
+    background-image: url("./images/fundo-universe.png");
+}
+
+.fundo-explore {
+    background-image: url("./images/fundo-explore.png");
 }
