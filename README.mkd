@@ -1,0 +1,15 @@
+![preview](./.github/preview.png)
+
+> Trilha Explorer - Stage 05
+
+Rocketseat challenge built in order to strengthen technical knowledge in HTML, CSS and JavaScript.
+
+Desafio da Rocketseat construído com intuito de fortalecer conhecimentos técnico em HTML, CSS e JavaScript.
+
+
+## 🛠 Technologies
+
+- HTML
+- CSS
+- Git e Github
+- Javascript
