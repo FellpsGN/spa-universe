@@ -1,6 +1,6 @@
 ![preview](./.github/preview.png)
 
-> Trilha Explorer - Stage 05
+> Trilha Explorer - Stage 06
 
 Rocketseat challenge built in order to strengthen technical knowledge in HTML, CSS and JavaScript.
 
